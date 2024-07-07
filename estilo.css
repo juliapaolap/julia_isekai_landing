@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+footer {
+    text-align: center;
+    color: #f4f4f4;
+    padding-bottom: 25px;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    z-index: 800;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.BIENVENIDO {
+    font-size: 3.5rem;
+    color: #F20505;
+    text-align: center;
+
+}
+
+.gancho {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mb-3
+{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.btn {
+    background-color: #F20505;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.75rem 1.25rem;
+    margin: 20px;
+    border: 5px solid #F20505;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #F20505;
+    border: 2px solid #F20505;
+    transform: scale(1.2);
+}
+
+.centered-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    width: 100%; /* Asegura que el contenedor ocupe toda la anchura de la ventana */
+    background-image: url(imagenes/fondo.jpeg);
+    background-size: cover; /* Para ajustar la imagen de fondo */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*********************************************************************************************************************************************************************/
+
+
+
+/*********************************************************************************************************************************************************************/
+
+h2
+{
+    padding-top: 50px;
+}
+
+.redes_sociales
+{
+    display:inline-flex;
+    background-color: black; 
+    padding: 30px; 
+    
+}
+
+.fb {
+    transition: transform 0.2s, font-size 0.2s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fb:hover {
+    transform: scale(1.3);
+}
+
+.ig {
+    transition: transform 0.2s, font-size 0.2s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ig:hover {
+    transform: scale(1.3);
+}
+
+.tt {
+    transition: transform 0.2s, font-size 0.2s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tt:hover {
+    transform: scale(1.3);
+}
+
+
+
+
+
+/* ***********************     CELULAR     *****************************************************************************************************************/
+
+@media only screen and (max-width: 767px)
+{
+    
+}
+
+/* ***********************     TABLET     *****************************************************************************************************************/
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    
+}
+
+/* ***********************     COMPUTADORA     *****************************************************************************************************************/
+
+@media only screen and (min-width:992px)
+{
+    
+
+}
